@@ -56,6 +56,23 @@ public class StudentManager {
                         System.out.println("Found: " + s.get(i));
                     }
                 }
+                else if (choice == 5) {
+                System.out.println("Enter name to search: ");
+                String searchName = sc.next();
+                for (int i = 0; i < s.size(); i++) {
+                    if (s.get(i).equals(searchName)) {
+                        System.out.println("Found: " + s.get(i));
+                    }
+                }
+
+                else if (choice == 5) {
+                System.out.println("Enter name to search: ");
+                String searchName = sc.next();
+                for (int i = 0; i < s.size(); i++) {
+                    if (s.get(i).equals(searchName)) {
+                        System.out.println("Found: " + s.get(i));
+                    }
+                }
             }
         }
     }
